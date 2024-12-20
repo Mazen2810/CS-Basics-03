@@ -157,7 +157,32 @@ internal class Program
         //result = ++A * C;
         //result = A * C;
         //Console.WriteLine(result);
-       
+
+        #endregion
+        #region String Formating
+        // Equation = X+Y = result
+        // Equation = 10 + 5  = 15
+
+        int X = 5;
+        int Y = 10;
+        int result = X + Y;
+        //Console.WriteLine("Equation : " + X+" + "+Y+" = "+result);
+        // String => Immutable Datatype
+        // string Name = "Ahmed";
+        // Name = "Ali";
+
+        #region 1. Composite Format
+        string Message = string.Format("Equation : {0} + {1} = {2}", X, Y, result);
+        Console.WriteLine(Message);
+
+        Console.WriteLine("Equation : {0} + {1} = {2}", X, Y, result);
+
+        #endregion
+
+        #region String Manipulition
+        // String INterpulation => $
+        //Console.WriteLine($"Equation : {X} + {Y} = {result}");
+        #endregion
         #endregion
     }
 }
