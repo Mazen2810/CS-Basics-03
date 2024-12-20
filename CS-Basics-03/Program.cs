@@ -1,4 +1,6 @@
-﻿namespace Cs_Basics;
+﻿using System.Xml.XPath;
+
+namespace Cs_Basics;
 internal class Program
 {
      static void Main(string[] args)
@@ -60,8 +62,6 @@ internal class Program
         //Console.WriteLine("Name : " + Name + " Age : " + Age + " Salary : " + Salary);
         #endregion
         #endregion
-
-
         #region Operators
 
         #region Unary Operators [++,--]
@@ -136,8 +136,28 @@ internal class Program
         //int X = 4;
         //String message = X > 4 ? "X is greater than 4" : "X less than or equal 4";
         //Console.WriteLine(message);
-        
+
         #endregion
+        #endregion
+        #region Operator priority
+        /*
+         1. Unary Operator [prefix]
+         2. ()
+         3. * / %
+         4. + -
+         */
+
+        //int A = 20;
+        //int B = 15;
+        //int C = 10;
+        //int D = 5;
+        //int result;
+
+        //result = (A + B) * C / D;
+        //result = ++A * C;
+        //result = A * C;
+        //Console.WriteLine(result);
+       
         #endregion
     }
 }
