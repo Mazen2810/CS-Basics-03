@@ -61,5 +61,83 @@ internal class Program
         #endregion
         #endregion
 
+
+        #region Operators
+
+        #region Unary Operators [++,--]
+        //int X = 5;
+        //X++;
+        //++X;
+        //Console.WriteLine(++X);
+        //Console.WriteLine(X);
+
+        //Console.WriteLine(--X);
+        //Console.WriteLine(X--);
+        //Console.WriteLine(X);
+        #endregion
+
+        #region Binary Operator
+        //int Sum, Mul, Sub, Div, Mod;
+        //int A = 8;
+        //int B = 5;
+
+        //Sum = A + B; // 13
+        //Sub = A - B; // 3
+        //Div = A / B; // 1
+        //Mul = A * B; // 40
+        //Console.WriteLine(Sum);
+        #endregion
+        #region Assignment Operator
+        //int X = 10;
+        //X += 10;
+        //X -= 10;
+        //X *= 10;
+        //X /= 10;
+        //X %= 10;
+
+        #endregion
+        #region Relational Operator
+        //int A = 5;
+        //int B = 10;
+        //Console.WriteLine(A<B);
+
+        #endregion
+        #region Logical Operator [short circuit]
+        //Console.WriteLine(!true);
+
+        //Console.WriteLine(true && false);
+        // true && true => true
+        // true && false => false
+        // false && true => false
+        // false && false => false
+
+        //Console.WriteLine(true || false);
+        // true || true => true
+        // true || false => true
+        // false || true => true
+        // false || false => false
+        #endregion
+
+        #region Bitwise operators [long circuit]
+        //Console.WriteLine(true & false);
+        // true & true => true
+        // true & false => false
+        // false & true => false
+        // false & false => false
+
+        //Console.WriteLine(true | false);
+        // true | true => true
+        // true | false => true
+        // false | true => true
+        // false | false => false
+        #endregion
+        #region Ternary operator [Conditional operator]
+
+        //int X = 4;
+        //String message = X > 4 ? "X is greater than 4" : "X less than or equal 4";
+        //Console.WriteLine(message);
+        
+        #endregion
+        #endregion
     }
 }
