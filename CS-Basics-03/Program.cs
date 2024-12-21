@@ -1,9 +1,11 @@
-﻿using System.Xml.XPath;
+﻿using System.Threading.Channels;
+using System.Xml.XPath;
+using CS_Basics_03;
 
 namespace Cs_Basics;
 internal class Program
 {
-     static void Main(string[] args)
+    static void Main(string[] args)
     {
         #region 1.Write a program that takes a number from the user then print yes if that number can be divided by 3 and 4 otherwise print no.
         //Console.WriteLine("Enter a Number that can be divided by 3 and 4");
@@ -179,7 +181,35 @@ internal class Program
         //    default:
         //        Console.WriteLine("Invalid month number");
         //        break;
-        }
+
         #endregion
+
+        #region 17- Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line.
+      
+        //Points P01 = new Points();
+        //Points P02 = new Points();
+        //Points P03 = new Points();
+
+        //Console.WriteLine("Enter the First point coordinates");
+        //P01.X = int.Parse(Console.ReadLine());
+        //P01.Y = int.Parse(Console.ReadLine());
+
+        //Console.WriteLine("Enter the Second point coordinates");
+        //P02.X = int.Parse(Console.ReadLine());
+        //P02.Y = int.Parse(Console.ReadLine());
+
+        //Console.WriteLine("Enter the Third point coordinates");
+        //P03.X = int.Parse(Console.ReadLine());
+        //P03.Y = int.Parse(Console.ReadLine());
+
+        //if ((P02.Y - P01.Y)/(P02.X - P01.X) == (P03.Y - P02.Y) / (P03.X - P02.X))
+        //{
+        //    Console.WriteLine("these points lie on a single straight line.");
+        //}
+        //else
+        //    Console.WriteLine("these points don't lie on a single straight line.");
+        #endregion
+
+
     }
 }
