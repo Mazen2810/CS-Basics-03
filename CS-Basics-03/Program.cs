@@ -163,9 +163,9 @@ internal class Program
         // Equation = X+Y = result
         // Equation = 10 + 5  = 15
 
-        int X = 5;
-        int Y = 10;
-        int result = X + Y;
+        //int X = 5;
+        //int Y = 10;
+        //int result = X + Y;
         //Console.WriteLine("Equation : " + X+" + "+Y+" = "+result);
         // String => Immutable Datatype
         // string Name = "Ahmed";
@@ -183,6 +183,79 @@ internal class Program
         // String INterpulation => $
         //Console.WriteLine($"Equation : {X} + {Y} = {result}");
         #endregion
+        #endregion
+        #region If Else - Switch Case
+        //Console.WriteLine("Enter Month Number");
+        //int MonthNum = int.Parse(Console.ReadLine());
+        // 1=> month is Jan
+        // 2=> month is Feb
+        // 3=> month is Mar
+        // Invalid Input
+
+
+        //if(MonthNum == 1)
+        //{
+        //    Console.WriteLine("month is Jan");
+        //}
+        //else if(MonthNum == 2)
+        //{
+        //    Console.WriteLine("month is Feb");
+
+        //} else if(MonthNum == 3)
+        //{
+        //    Console.WriteLine("month is Mar");
+
+        //}
+        //else
+        //{
+        //    Console.WriteLine("Invalid input");
+
+        //}
+
+        //switch(MonthNum)
+        //{
+        //    case 1:
+        //        Console.WriteLine("month is Jan");
+        //        break;
+        //    case 2:
+        //        Console.WriteLine("month is Mar");
+        //        break;
+        //    case 3:
+        //        Console.WriteLine("month is Mar");
+        //        break;
+        //    default:
+        //        Console.WriteLine("Invalid input");
+        //        break;
+        //}
+
+        //Console.WriteLine("Enter Name");
+        //string Name = Console.ReadLine();
+
+        //if(Name == "Mostafa")
+        //{
+        //    Console.WriteLine("Hello Mostafa");
+        //}
+        //else if(Name == "Aliaa")
+        //{
+        //    Console.WriteLine("Hello Mostafa");
+        //} else if(Name == "Ahmed")
+        //{
+        //    Console.WriteLine("Hello Ahmed");
+        //}
+
+        //switch(Name)
+        //{
+        //    case "Mostafa":
+        //        Console.WriteLine("Hello Mostafa");
+        //        break;
+        //    case "Aliaa":
+        //        Console.WriteLine("Hello Aliaa");
+        //        break;
+        //    case "Ahmed":
+        //        Console.WriteLine("Hello Ahmed");
+        //        break;
+        //}
+
         #endregion
     }
 }
