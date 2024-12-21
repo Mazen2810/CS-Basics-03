@@ -240,5 +240,14 @@ internal class Program
         #region 23.Which of the following statements is correct
         //A value 1 will be assigned to d.
         #endregion
+        #region 24.Which of the following is the correct output for the C# code given below?
+        // 6 1
+
+
+        #endregion
+        #region 25.What will be the output of the C# code given below?
+        // 7 7
+
+        #endregion
     }
 }
