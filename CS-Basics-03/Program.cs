@@ -185,7 +185,7 @@ internal class Program
         #endregion
 
         #region 17- Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line.
-      
+
         //Points P01 = new Points();
         //Points P02 = new Points();
         //Points P03 = new Points();
@@ -210,6 +210,18 @@ internal class Program
         //    Console.WriteLine("these points don't lie on a single straight line.");
         #endregion
 
+        #region 18- Within a company, the efficiency of workers is evaluated
+        //Console.WriteLine("Enter the hours");
+        //double Hours = double.Parse(Console.ReadLine());
+        //if(Hours <3 && Hours >= 2)
+        //    Console.WriteLine("highly efficient.");
+        //else if (Hours < 4 && Hours >= 3)
+        //    Console.WriteLine("instructed to increase speed.");
+        //else if (Hours < 5 && Hours >= 4)
+        //    Console.WriteLine("provided with training to enhance their speed.");
+        //else if (Hours > 5)
+        //    Console.WriteLine("required to leave the company.");
 
+        #endregion
     }
 }
