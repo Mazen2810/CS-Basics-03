@@ -237,5 +237,8 @@ internal class Program
         //FName = LName; 
         //// both var will have the same address not the same value.
         #endregion
+        #region 23.Which of the following statements is correct
+        //A value 1 will be assigned to d.
+        #endregion
     }
 }
