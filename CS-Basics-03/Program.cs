@@ -172,10 +172,10 @@ internal class Program
         // Name = "Ali";
 
         #region 1. Composite Format
-        string Message = string.Format("Equation : {0} + {1} = {2}", X, Y, result);
-        Console.WriteLine(Message);
+        //string Message = string.Format("Equation : {0} + {1} = {2}", X, Y, result);
+        //Console.WriteLine(Message);
 
-        Console.WriteLine("Equation : {0} + {1} = {2}", X, Y, result);
+        //Console.WriteLine("Equation : {0} + {1} = {2}", X, Y, result);
 
         #endregion
 
@@ -256,6 +256,27 @@ internal class Program
         //        break;
         //}
 
+        #endregion
+        #region GoTo
+        //Console.WriteLine("Enter Option");
+        // 3000 => "Option 1" ,  "Option 2", "Option 3"
+        // 2000 => "Option 1" ,  "Option 2"
+        // 1000 => "Option 1" 
+
+        //int option = int.Parse(Console.ReadLine());
+
+        //switch(option)
+        //{
+        //    case 3000:
+        //        Console.WriteLine("option 3");
+        //        goto case 2000;
+        //    case 2000:
+        //        Console.WriteLine("option 2");
+        //        goto case 1000;
+        //    case 1000:
+        //        Console.WriteLine("option 1");
+        //        break;
+        //}
         #endregion
     }
 }
