@@ -278,5 +278,63 @@ internal class Program
         //        break;
         //}
         #endregion
+
+        #region Evaluation of Switch Case
+        #region C# 06
+        //Console.WriteLine("enter age");
+        //int Age = int.Parse(Console.ReadLine());
+
+        //switch (Age)
+        //{
+        //    case > 22:
+        //        Console.WriteLine("Age greater than 22");
+        //        break;
+        //    case < 22:
+        //        Console.WriteLine("Age less than 22");
+        //        break;
+        //    case = 22:
+        //        Console.WriteLine("Age equal 22");
+        //        break;
+        //}
+        #endregion
+        #region C# 07
+        //object obj = new object();
+        //obj = "Mostafa";
+        //obj = 10;
+        //obj = true;
+
+        //switch(obj)
+        //{
+        //    case int Number when Number > 10 && Number < 20:
+        //        Console.WriteLine($"{Number} is int");
+        //        break;
+        //    case string Name:
+        //        Console.WriteLine($"{Name} is String");
+        //        break;
+        //    case bool flag:
+        //        Console.WriteLine($"{flag} is boolean");
+        //        break;
+        //}
+        #endregion
+        #region C# 08
+        #region Ex01
+        //Console.WriteLine("enter option");
+        //int option = int.Parse(Console.ReadLine());
+
+        //string Message = option switch
+        //{
+        //    1 => "option 1"
+        //    2 => "option 2"
+        //    3 => "option 3"
+        //    _ => "Invalid"
+        //};
+        //Console.WriteLine(Message);
+        #endregion
+
+        #region Ex02
+
+        #endregion
+        #endregion
+        #endregion
     }
 }
