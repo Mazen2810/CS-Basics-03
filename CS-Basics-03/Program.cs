@@ -111,10 +111,32 @@ internal class Program
         //}
         //else
         //    Console.WriteLine("You entered more than one char");
-      
+
         //Console.ReadKey();
         #endregion
+        #region 7.Write a program that allows the user to insert an integer then print a multiplication table up to 12.
 
+        //Console.WriteLine("Enter the number");
+        //int Num = int.Parse(Console.ReadLine());
+        //for (int i = 1; i <= 12; i++)
+        //{
+        //    Console.WriteLine(Num*i);
+        //}
 
+        #endregion
+        #region 9- Write a program that takes two integers then prints the power.
+        //Console.WriteLine("enter the number");
+        //int Num = int.Parse(Console.ReadLine());
+        //Console.WriteLine("enter the power number");
+        //int pwr = int.Parse(Console.ReadLine());
+        //int Result = 1;
+        //for (int i = 1; i <= pwr; i++) 
+        //    {
+        //    Result = Result * Num;
+            
+        //    }
+        //Console.WriteLine(Result);
+       
+        #endregion
     }
 }
