@@ -153,5 +153,33 @@ internal class Program
         //Console.WriteLine($"Percentage = {percentage}");
 
         #endregion
+        #region 11- Write a program to input the month number and print the number of days in that month.
+        //Console.WriteLine("enter the month number");
+        //int MonthNum = int.Parse(Console.ReadLine());
+        //switch(MonthNum)
+        //{
+        //    case 1:
+        //    case 3:
+        //    case 5:
+        //    case 7:
+        //    case 8:
+        //    case 10:
+        //    case 12:
+        //        Console.WriteLine("Days in Month: 31");
+        //        break;
+        //    case 4:
+        //    case 6:
+        //    case 9:
+        //    case 11:
+        //        Console.WriteLine("Days in Month: 30");
+        //        break;
+        //    case 2:
+        //        Console.WriteLine("Days in Month: 28");
+        //         break ;
+        //    default:
+        //        Console.WriteLine("Invalid month number");
+        //        break;
+        }
+        #endregion
     }
 }
