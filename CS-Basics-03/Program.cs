@@ -223,5 +223,13 @@ internal class Program
         //    Console.WriteLine("required to leave the company.");
 
         #endregion
+
+        #region 21.Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
+        //int X = 5;
+        //int Y = 10;
+
+        //X = Y; // X = 10 Y= 10
+        //// the Var Y will have the value of X
+        #endregion
     }
 }
