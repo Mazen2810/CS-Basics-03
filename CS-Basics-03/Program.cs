@@ -5,7 +5,7 @@ internal class Program
 {
      static void Main(string[] args)
     {
-        #region Write a program that takes a number from the user then print yes if that number can be divided by 3 and 4 otherwise print no.
+        #region 1.Write a program that takes a number from the user then print yes if that number can be divided by 3 and 4 otherwise print no.
         //Console.WriteLine("Enter a Number that can be divided by 3 and 4");
         //int Num = int.Parse(Console.ReadLine());
         //if(Num%3 == 0 && Num%4==0)
@@ -13,7 +13,7 @@ internal class Program
         //else
         //    Console.WriteLine("No");
         #endregion
-        #region Write a program that allows the user to insert an integer then print negative if it is negative number otherwise print positive.
+        #region 2.Write a program that allows the user to insert an integer then print negative if it is negative number otherwise print positive.
         //Console.WriteLine("Enter a Number");
         //int Num = int.Parse(Console.ReadLine());
         //if(Num >= 0 )
@@ -22,16 +22,16 @@ internal class Program
         //    Console.WriteLine("Negative");
 
         #endregion
-        #region Write a program that takes 3 integers from the user then prints the max element and the min element.
-        Console.WriteLine("Enter the first number");
-    
-        int num1 = int.Parse(Console.ReadLine());
-        Console.WriteLine("Enter the second number");
+        #region 3.Write a program that takes 3 integers from the user then prints the max element and the min element.
+        //Console.WriteLine("Enter the first number");
 
-        int num2 = int.Parse(Console.ReadLine());
-        Console.WriteLine("Enter the third number");
+        //int num1 = int.Parse(Console.ReadLine());
+        //Console.WriteLine("Enter the second number");
 
-        int num3 = int.Parse(Console.ReadLine());
+        //int num2 = int.Parse(Console.ReadLine());
+        //Console.WriteLine("Enter the third number");
+
+        //int num3 = int.Parse(Console.ReadLine());
 
         //if(num1 > num2 && num1 > num3)
         //{
@@ -79,7 +79,42 @@ internal class Program
 
         //Console.WriteLine($"Max element = {max}");
         //Console.WriteLine($"min element = {min}");
-       
+
         #endregion
+        #region 4.Write a program that allows the user to insert an integer number then check If a number is even or odd.
+        //Console.WriteLine("enter a number");
+        //int Num = int.Parse(Console.ReadLine());
+        //if (Num % 2 == 0)
+        //    Console.WriteLine($"{Num} is even");
+        //else
+        //    Console.WriteLine($"{Num} is Odd");
+
+        #endregion
+        #region 5.Write a program that takes character from the user then if it is a vowel chars (a,e,I,o,u) then print (vowel) otherwise print (consonant).
+        //Console.WriteLine("Enter a Letter");
+        //string Letter = Console.ReadLine();
+        //if(Letter.Length == 1)
+        //{
+        //    switch (Letter)
+        //    {
+        //        case "a":
+        //        case "o":
+        //        case "i":
+        //        case "e":
+        //        case "u":
+        //            Console.WriteLine("Vowel");
+        //            break;
+        //        default:
+        //            Console.WriteLine("Consonant");
+        //            break;
+        //    }
+        //}
+        //else
+        //    Console.WriteLine("You entered more than one char");
+      
+        //Console.ReadKey();
+        #endregion
+
+
     }
 }
