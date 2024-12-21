@@ -133,10 +133,25 @@ internal class Program
         //for (int i = 1; i <= pwr; i++) 
         //    {
         //    Result = Result * Num;
-            
+
         //    }
         //Console.WriteLine(Result);
-       
+
+        #endregion
+        #region 10- Write a program to enter marks of five subjects and calculate total, average and percentage.
+        //Console.Write(" Enter Marks of five subjects: ");
+        //int subj1 = int.Parse(Console.ReadLine());
+        //int subj2 = int.Parse(Console.ReadLine());
+        //int subj3 = int.Parse(Console.ReadLine());
+        //int subj4 = int.Parse(Console.ReadLine());
+        //int subj5 = int.Parse(Console.ReadLine());
+        //int Sum = subj1 + subj2 + subj3 + subj4 + subj5;
+        //int avg = Sum / 5;
+        //int percentage = (avg * 100)/100;
+        //Console.WriteLine($"Total marks = {Sum}");
+        //Console.WriteLine($"Average Marks = {avg}");
+        //Console.WriteLine($"Percentage = {percentage}");
+
         #endregion
     }
 }
