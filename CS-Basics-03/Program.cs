@@ -231,5 +231,11 @@ internal class Program
         //X = Y; // X = 10 Y= 10
         //// the Var Y will have the value of X
         #endregion
+        #region 22.Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen
+        //string FName = "Mohamed";
+        //string LName = "Ahmed";
+        //FName = LName; 
+        //// both var will have the same address not the same value.
+        #endregion
     }
 }
